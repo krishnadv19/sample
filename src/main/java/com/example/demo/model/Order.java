@@ -32,7 +32,7 @@ public class Order {
 	@Column(name="order_name")
 	@NotEmpty(message="order Name should not be empty")
    private String orderName;
-	@NotEmpty(message="order payment should not be empty")
+	@NotEmpty(message="order paymentmethod should not be empty")
 	@Column(name="pytment_method")
 	private String payment;
 	@Column(name="order_adress")
